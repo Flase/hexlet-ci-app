@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@master
           # Устанавливаем Node.js
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
